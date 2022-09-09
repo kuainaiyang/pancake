@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: pancake
+  profiles:
+    active: dev
+
+server:
+  port: 8888
+  servlet:
+    context-path: /pancake
+
+minio:
+  endpoint: 127.0.0.1
+  bucket: europetrip
+  accessKey: CWr0OR6qNKmhFiLg
+  secretKey: nEiTxwX1jjIUNEZ0fFipGolyLj0wEXbc
+  secure: false
+  port: 9000
